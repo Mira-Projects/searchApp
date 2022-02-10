@@ -1,5 +1,6 @@
 {
   "expo": {
+    "jsEngine": "hermes",
     "name": "searchApp",
     "slug": "searchApp",
     "version": "1.0.0",
@@ -23,7 +24,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.searchApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
